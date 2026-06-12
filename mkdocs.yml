@@ -2,8 +2,8 @@ site_name: "密码学从入门到精通"
 site_description: "Cryptography Learning Path — From Beginner to Expert"
 site_author: "Crypto Tutorial"
 
-repo_url: https://github.com/example/cryptography-tutorial
-repo_name: cryptography-tutorial
+repo_url: https://github.com/hyfaust/cryptography-tutorial
+repo_name: hyfaust/cryptography-tutorial
 
 theme:
   name: material
