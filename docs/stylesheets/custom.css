@@ -1,0 +1,52 @@
+/* 自定义样式 */
+
+/* 代码块增强 */
+.md-typeset pre > code {
+    font-size: 0.82rem;
+}
+
+/* 终端输出样式 */
+.md-typeset .highlight {
+    border-radius: 0.2rem;
+}
+
+/* 术语定义样式 */
+.md-typeset dl dt {
+    font-weight: 700;
+    color: var(--md-primary-fg-color);
+}
+
+/* 公式区域 */
+.md-typeset .arithmatex {
+    overflow-x: auto;
+    padding: 0.5em 0;
+}
+
+/* 练习题样式 */
+.md-typeset .task-list-item {
+    list-style-type: none;
+    position: relative;
+    margin-left: -1.5rem;
+}
+
+/* 标签页内代码块 */
+.md-typeset .tabbed-content .highlight {
+    margin-top: 0.5em;
+}
+
+/* 工具标签 */
+.crypto-tool {
+    display: inline-block;
+    padding: 0.1em 0.5em;
+    border-radius: 0.2rem;
+    font-size: 0.85em;
+    font-weight: 600;
+    margin: 0 0.1em;
+}
+
+.crypto-tool.openssl { background: #721548; color: #fff; }
+.crypto-tool.hashcat { background: #1a73e8; color: #fff; }
+.crypto-tool.john { background: #34a853; color: #fff; }
+.crypto-tool.cyberchef { background: #ea4335; color: #fff; }
+.crypto-tool.sage { background: #ff6d01; color: #fff; }
+.crypto-tool.python { background: #3776ab; color: #fff; }
