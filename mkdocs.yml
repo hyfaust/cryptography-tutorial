@@ -102,47 +102,50 @@ extra:
 nav:
   - "首页": index.md
   - "环境搭建": getting-started.md
-  - "模块1 — 密码学基础与古典密码":
-      - 01-foundations/index.md
-      - "1.1 密码学概述与历史": 01-foundations/01-overview.md
-      - "1.2 编码与加密": 01-foundations/02-encoding.md
-      - "1.3 凯撒密码": 01-foundations/03-caesar.md
-      - "1.4 维吉尼亚密码": 01-foundations/04-vigenere.md
-      - "1.5 替换密码与换位密码": 01-foundations/05-substitution.md
-  - "模块2 — 哈希函数与消息完整性":
-      - 02-hashing/index.md
-      - "2.1 哈希函数原理": 02-hashing/01-hash-functions.md
-      - "2.2 哈希碰撞与安全分析": 02-hashing/02-collision.md
-      - "2.3 HMAC与消息认证码": 02-hashing/03-hmac.md
-      - "2.4 密码哈希与盐值": 02-hashing/04-password-hashing.md
-  - "模块2b — CSPRNG与随机数":
-      - 02b-random/index.md
-      - "2b.1 随机性基础": 02b-random/01-random-basics.md
-      - "2b.2 CSPRNG算法详解": 02b-random/02-csprng-algorithms.md
-      - "2b.3 随机数漏洞与攻击": 02b-random/03-randomness-attacks.md
-  - "模块3 — 对称加密":
-      - 03-symmetric/index.md
-      - "3.1 DES算法": 03-symmetric/01-des.md
-      - "3.2 AES算法": 03-symmetric/02-aes.md
-      - "3.3 分组密码模式": 03-symmetric/03-block-modes.md
-      - "3.4 流密码与异或": 03-symmetric/04-stream-cipher.md
-  - "模块4 — 非对称加密与数论":
-      - 04-asymmetric/index.md
-      - "4.1 数论基础": 04-asymmetric/01-number-theory.md
-      - "4.2 RSA算法": 04-asymmetric/02-rsa.md
-      - "4.3 椭圆曲线密码学": 04-asymmetric/03-ecc.md
-      - "4.4 Diffie-Hellman密钥交换": 04-asymmetric/04-dh.md
-  - "模块5 — 密码破解实战":
-      - 05-cryptanalysis/index.md
-      - "5.1 频率分析": 05-cryptanalysis/01-frequency.md
-      - "5.2 字典攻击与暴力破解": 05-cryptanalysis/02-dictionary.md
-      - "5.3 规则攻击与彩虹表": 05-cryptanalysis/03-rules.md
-      - "5.4 RSA攻击（上）": 05-cryptanalysis/04-rsa-attacks-1.md
-      - "5.5 RSA攻击（下）": 05-cryptanalysis/05-rsa-attacks-2.md
-  - "模块6 — 高级应用与现代密码学":
-      - 06-advanced/index.md
-      - "6.1 数字签名": 06-advanced/01-signatures.md
-      - "6.2 PKI与证书": 06-advanced/02-pki.md
-      - "6.3 TLS/SSL协议": 06-advanced/03-tls.md
-      - "6.4 零知识证明": 06-advanced/04-zkp.md
-      - "6.5 后量子密码学": 06-advanced/05-post-quantum.md
+  - "入门篇":
+      - "模块1 — 密码学基础与古典密码":
+          - 01-foundations/index.md
+          - "1.1 密码学概述与历史": 01-foundations/01-overview.md
+          - "1.2 编码与加密": 01-foundations/02-encoding.md
+          - "1.3 凯撒密码": 01-foundations/03-caesar.md
+          - "1.4 维吉尼亚密码": 01-foundations/04-vigenere.md
+          - "1.5 替换密码与换位密码": 01-foundations/05-substitution.md
+      - "模块2 — 哈希函数与消息完整性":
+          - 02-hashing/index.md
+          - "2.1 哈希函数原理": 02-hashing/01-hash-functions.md
+          - "2.2 哈希碰撞与安全分析": 02-hashing/02-collision.md
+          - "2.3 HMAC与消息认证码": 02-hashing/03-hmac.md
+          - "2.4 密码哈希与盐值": 02-hashing/04-password-hashing.md
+      - "模块2b — CSPRNG与随机数":
+          - 02b-random/index.md
+          - "2b.1 随机性基础": 02b-random/01-random-basics.md
+          - "2b.2 CSPRNG算法详解": 02b-random/02-csprng-algorithms.md
+          - "2b.3 随机数漏洞与攻击": 02b-random/03-randomness-attacks.md
+  - "核心篇":
+      - "模块3 — 对称加密":
+          - 03-symmetric/index.md
+          - "3.1 DES算法": 03-symmetric/01-des.md
+          - "3.2 AES算法": 03-symmetric/02-aes.md
+          - "3.3 分组密码模式": 03-symmetric/03-block-modes.md
+          - "3.4 流密码与异或": 03-symmetric/04-stream-cipher.md
+      - "模块4 — 非对称加密与数论":
+          - 04-asymmetric/index.md
+          - "4.1 数论基础": 04-asymmetric/01-number-theory.md
+          - "4.2 RSA算法": 04-asymmetric/02-rsa.md
+          - "4.3 椭圆曲线密码学": 04-asymmetric/03-ecc.md
+          - "4.4 Diffie-Hellman密钥交换": 04-asymmetric/04-dh.md
+  - "进阶篇":
+      - "模块5 — 密码破解实战":
+          - 05-cryptanalysis/index.md
+          - "5.1 频率分析": 05-cryptanalysis/01-frequency.md
+          - "5.2 字典攻击与暴力破解": 05-cryptanalysis/02-dictionary.md
+          - "5.3 规则攻击与彩虹表": 05-cryptanalysis/03-rules.md
+          - "5.4 RSA攻击（上）": 05-cryptanalysis/04-rsa-attacks-1.md
+          - "5.5 RSA攻击（下）": 05-cryptanalysis/05-rsa-attacks-2.md
+      - "模块6 — 高级应用与现代密码学":
+          - 06-advanced/index.md
+          - "6.1 数字签名": 06-advanced/01-signatures.md
+          - "6.2 PKI与证书": 06-advanced/02-pki.md
+          - "6.3 TLS/SSL协议": 06-advanced/03-tls.md
+          - "6.4 零知识证明": 06-advanced/04-zkp.md
+          - "6.5 后量子密码学": 06-advanced/05-post-quantum.md
